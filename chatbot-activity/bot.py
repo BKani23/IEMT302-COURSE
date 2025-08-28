@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 
 import os
 import json
@@ -147,4 +148,6 @@ def main():
     app.run_polling()
 
 if __name__ == "__main__":
-    main()
+    import asyncio
+    asyncio.run(main())
+
